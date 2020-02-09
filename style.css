@@ -78,12 +78,12 @@ header{
 /* Caption text */
 .text {
   color: var(--vanilla);
-  font-size: 12rem;
+  font-size: 8rem;
   padding: 8px 12px;
   position: absolute;
   bottom: 40%;
   width: 100%;
   text-align: center;
-  top: 5%;
+  top: 10%;
 }
 

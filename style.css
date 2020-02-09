@@ -16,3 +16,12 @@ body{
 	--vanilla: #ece0d1;
 	background: var(--darkbrown);
 }
+
+header{
+	background: black;
+	color: white;
+	display: block;
+	text-align: center;
+	height: 10vh;
+	font-size: 2.6rem;
+}

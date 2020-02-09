@@ -11,7 +11,8 @@ html{
 }
 
 body{
-	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/coffee-beans-wallpaper.jpg);
-	background-repeat: no-repeat;
-  	background-size: cover;
+	--brown: #634832;
+	--darkbrown: #3e1404;
+	--vanilla: #ece0d1;
+	background: var(--darkbrown);
 }

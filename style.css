@@ -14,7 +14,9 @@ body{
 	--brown: #634832;
 	--darkbrown: #3e1404;
 	--vanilla: #ece0d1;
-	background: var(--darkbrown);
+	background: url(img/coffee-beans-background.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 header{

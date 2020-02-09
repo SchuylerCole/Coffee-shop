@@ -12,6 +12,86 @@
 	<header>
 		<h1><em>The Witches Brew</h1>
 	</header>
+
+	<div class="hero">
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+
+		  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides fade">
+	    
+		    <img src="img/table.jpg" style="width:100%">
+		    <div class="text">Delicious  Food!</div>
+		  </div>
+
+		  <div class="mySlides fade">
+		    
+		    <img src="img/cauldron.jpg" style="width:100%">
+		    <div class="text" id="open-slide">24/7</div>
+		  </div>
+
+		  <div class="mySlides fade">
+		   
+		    <img src="img/lamp.jpg" style="width:100%">
+		    <div class="text">We Deliver!</div>
+		</div>
+
+	</div>
+
+	<!-- The dots/circles -->
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span>
+	  <span class="dot" onclick="currentSlide(2)"></span>
+	  <span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+	// Next/previous controls
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	// Thumbnail image controls
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	}
+
+
+	//automatic trasistion
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}
+	  slides[slideIndex-1].style.display = "block";
+	  setTimeout(showSlides, 5000); // Change image every 5 seconds
+	}
+</script>
+</div>
 	
 </body>
 </html>

@@ -16,7 +16,7 @@ body{
 	--vanilla: #ece0d1;
 	background: url(img/coffee-beans-background.jpg);
 	background-repeat: repeat-y;
-  	background-size: auto;
+  	background-size: 100% auto;
 }
 
 header{

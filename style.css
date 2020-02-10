@@ -85,6 +85,7 @@ header{
   width: 100%;
   text-align: center;
   top: 10%;
+  font-family: 'Calligraffitti', cursive;
 }
 
 
@@ -163,6 +164,7 @@ header{
 
 .about-text{
 	text-align: center;
+	font-family: 'Calligraffitti', cursive;
 }
 
 .about button{
@@ -173,4 +175,5 @@ header{
 	margin: 6rem;
 	border-color: var(--vanilla);
 	cursor: pointer;
+	font-family: 'Calligraffitti', cursive;
 }

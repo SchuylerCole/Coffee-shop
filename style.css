@@ -164,3 +164,13 @@ header{
 .about-text{
 	text-align: center;
 }
+
+.about button{
+	padding: 4rem;
+	background: var(--brown);
+	color: var(--vanilla);
+	font-size: 2.4rem;
+	margin: 6rem;
+	border-color: var(--vanilla);
+	cursor: pointer;
+}

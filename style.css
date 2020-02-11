@@ -213,3 +213,11 @@ header{
 	font-family: 'Calligraffitti', cursive;
 	flex-grow: 100;
 }
+
+.secret-menu img{
+	height: 100vh;
+	width: auto;
+}
+.secret-menu{
+	text-align: center;
+}

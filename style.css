@@ -177,3 +177,39 @@ header{
 	cursor: pointer;
 	font-family: 'Calligraffitti', cursive;
 }
+
+/*location section*/
+
+.location{
+	display: flex;
+	flex-direction: row;
+	background: var(--darkbrown);
+}
+
+.location img{
+	width: auto;
+	height: 100vh;
+}
+
+.location p{
+	font-size: 3.6rem;
+	color: var(--vanilla);
+	text-align: center;
+	margin: 10rem;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+}
+
+.location h2{
+	margin: 2rem;
+	margin-bottom: 1rem;
+	margin-top: 15rem;
+	font-size: 6rem;
+	color: white;
+}
+
+.location-text{
+	text-align: center;
+	font-family: 'Calligraffitti', cursive;
+	flex-grow: 100;
+}

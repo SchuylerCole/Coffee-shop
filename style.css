@@ -234,6 +234,7 @@ header{
 	animation-duration: 5s;
 	animation-name: ouija-moves;
 	animation-iteration-count: infinite;
+	animation-
 }
 
 @keyframes ouija-moves {
@@ -241,12 +242,20 @@ header{
 		top: 15%;
 		left: 36%;
 	}
+	25%{
+		top: 25%;
+		left: 23%;
+	}
 	50%{
 		top: 10%;
 		left: 23%;
 	}
-	to {
+	75%{
 		top: 27%;
 		left: 53%;
+	}
+	to {
+		top: 15%;
+		left: 36%;
 	}
 } 

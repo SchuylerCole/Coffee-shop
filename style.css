@@ -215,9 +215,20 @@ header{
 }
 
 .secret-menu img{
+	position: relative;
 	height: 100vh;
-	width: auto;
+	width: 90vw;
 }
 .secret-menu{
+	position: relative;
 	text-align: center;
+}
+
+#ouija-pointer{
+	position: absolute;
+	height: 500px;
+	width: 400px;
+	top: 15%;
+	left: 36%;
+	transform: rotate(180deg);
 }

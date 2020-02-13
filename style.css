@@ -231,7 +231,7 @@ header{
 	top: 15%;
 	left: 36%;
 	transform: rotate(180deg);
-	animation-duration: 5s;
+	animation-duration: 25s;
 	animation-name: ouija-moves;
 	animation-iteration-count: infinite;
 	animation-
@@ -242,15 +242,39 @@ header{
 		top: 15%;
 		left: 36%;
 	}
-	25%{
+	10%{
+		top: 27%;
+		left: 53%;
+	}
+	20%{
+		top: 10%;
+		left: 46%;
+	}
+	30%{
+		top: 25%;
+		left: 34%;
+	}
+	40%{
+		top: 15%;
+		left: 11%;
+	}
+	50%{
+		top: 9%;
+		left: 41%;
+	}
+	60%{
+		top: 18%;
+		left: 7%;
+	}
+	70%{
 		top: 25%;
 		left: 23%;
 	}
-	50%{
+	80%{
 		top: 10%;
 		left: 23%;
 	}
-	75%{
+	90%{
 		top: 27%;
 		left: 53%;
 	}

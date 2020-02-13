@@ -231,4 +231,22 @@ header{
 	top: 15%;
 	left: 36%;
 	transform: rotate(180deg);
+	animation-duration: 5s;
+	animation-name: ouija-moves;
+	animation-iteration-count: infinite;
 }
+
+@keyframes ouija-moves {
+	from{
+		top: 15%;
+		left: 36%;
+	}
+	50%{
+		top: 10%;
+		left: 23%;
+	}
+	to {
+		top: 27%;
+		left: 53%;
+	}
+} 

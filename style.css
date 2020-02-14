@@ -231,7 +231,7 @@ header{
 	top: 15%;
 	left: 36%;
 	transform: rotate(180deg);
-	animation-duration: 25s;
+	animation-duration: 40s;
 	animation-name: ouija-moves;
 	animation-iteration-count: infinite;
 	animation-
@@ -242,41 +242,135 @@ header{
 		top: 15%;
 		left: 36%;
 	}
-	10%{
-		top: 27%;
-		left: 53%;
-	}
-	20%{
-		top: 10%;
-		left: 46%;
-	}
-	30%{
+	/*t*/
+	3%{
 		top: 25%;
 		left: 34%;
 	}
-	40%{
-		top: 15%;
-		left: 11%;
-	}
-	50%{
-		top: 9%;
-		left: 41%;
-	}
-	60%{
-		top: 18%;
-		left: 7%;
-	}
-	70%{
+	/*r*/
+	7%{
 		top: 25%;
 		left: 23%;
 	}
-	80%{
+	/*y*/
+	11%{
+		top: 40%;
+		left: 65%;
+	}
+	/*t*/
+	15%{
+		top: 25%;
+		left: 34%;
+	}
+	/*h*/
+	19%{
+		top: 9%;
+		left: 41%;
+	}
+	/*e*/
+	22%{
 		top: 10%;
 		left: 23%;
 	}
-	90%{
+	/*w*/
+	26%{
 		top: 27%;
 		left: 53%;
+	}
+	/*i*/
+	30%{
+		top: 10%;
+		left: 46%;
+	}
+	/*t*/
+	33%{
+		top: 25%;
+		left: 34%;
+	}
+	/*c*/
+	37%{
+		top: 15%;
+		left: 11%;
+	}
+	/*h*/
+	41%{
+		top: 9%;
+		left: 41%;
+	}
+	/*b*/
+	44%{
+		top: 18%;
+		left: 7%;
+	}
+	/*r*/
+	48%{
+		top: 25%;
+		left: 23%;
+	}
+	/*e*/
+	52%{
+		top: 10%;
+		left: 23%;
+	}
+	/*w*/
+	56%{
+		top: 27%;
+		left: 53%;
+	}
+	/*o*/
+	61%{
+		top: 42%;
+		left: 5%;
+	}
+	/*r*/
+	66%{
+		top: 25%;
+		left: 23%;
+	}
+	/*a*/
+	70%{
+		top: 26%;
+		left: 1%;
+	}
+	/*f*/
+	73%{
+		top: 9%;
+		left: 28%;
+	}
+	/*seprated*/
+	76%{
+		top: 0%;
+		left: 25%;
+	}
+	/*f*/
+	79%{
+		top: 9%;
+		left: 28%;
+	}
+	/*o*/
+	82%{
+		top: 42%;
+		left: 5%;
+	}
+	/*g*/
+	85%{
+		top: 9%;
+		left: 35%;
+	}
+	/*a*/
+	88%{
+		top: 26%;
+		left: 1%;
+	}
+	/*t*/
+	91%{
+		top: 25%;
+		left: 34%;
+	}
+	/*o*/
+	95%{
+		top: 42%;
+		left: 5%;
 	}
 	to {
 		top: 15%;

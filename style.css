@@ -213,7 +213,7 @@ header{
 	font-family: 'Calligraffitti', cursive;
 	flex-grow: 100;
 }
-
+/*
 .secret-menu img{
 	position: relative;
 	height: 100vh;
@@ -222,6 +222,9 @@ header{
 .secret-menu{
 	position: relative;
 	text-align: center;
+	width: 90vw;
+	height: 100vh;
+	margin: auto;
 }
 
 #ouija-pointer{
@@ -241,132 +244,132 @@ header{
 		top: 15%;
 		left: 36%;
 	}
-	/*t*/
+	/*t*
 	3%{
 		top: 25%;
 		left: 34%;
 	}
-	/*r*/
+	/*r*
 	7%{
 		top: 25%;
 		left: 23%;
 	}
-	/*y*/
+	/*y*
 	11%{
 		top: 40%;
 		left: 65%;
 	}
-	/*t*/
+	/*t*
 	15%{
 		top: 25%;
 		left: 34%;
 	}
-	/*h*/
+	/*h*
 	19%{
 		top: 9%;
 		left: 41%;
 	}
-	/*e*/
+	/*e*
 	22%{
 		top: 10%;
 		left: 23%;
 	}
-	/*w*/
+	/*w*
 	26%{
 		top: 27%;
 		left: 53%;
 	}
-	/*i*/
+	/*i*
 	30%{
 		top: 10%;
 		left: 46%;
 	}
-	/*t*/
+	/*t*
 	33%{
 		top: 25%;
 		left: 34%;
 	}
-	/*c*/
+	/*c*
 	37%{
 		top: 15%;
 		left: 11%;
 	}
-	/*h*/
+	/*h*
 	41%{
 		top: 9%;
 		left: 41%;
 	}
-	/*b*/
+	/*b*
 	44%{
 		top: 18%;
 		left: 7%;
 	}
-	/*r*/
+	/*r*
 	48%{
 		top: 25%;
 		left: 23%;
 	}
-	/*e*/
+	/*e*
 	52%{
 		top: 10%;
 		left: 23%;
 	}
-	/*w*/
+	/*w*
 	56%{
 		top: 27%;
 		left: 53%;
 	}
-	/*o*/
+	/*o*
 	61%{
 		top: 42%;
 		left: 5%;
 	}
-	/*r*/
+	/*r*
 	66%{
 		top: 25%;
 		left: 23%;
 	}
-	/*a*/
+	/*a*
 	70%{
 		top: 26%;
 		left: 1%;
 	}
-	/*f*/
+	/*f*
 	73%{
 		top: 9%;
 		left: 28%;
 	}
-	/*seprated*/
+	/*seprated*
 	76%{
 		top: 0%;
 		left: 25%;
 	}
-	/*f*/
+	/*f*
 	79%{
 		top: 9%;
 		left: 28%;
 	}
-	/*o*/
+	/*o*
 	82%{
 		top: 42%;
 		left: 5%;
 	}
-	/*g*/
+	/*g*
 	85%{
 		top: 9%;
 		left: 35%;
 	}
-	/*a*/
+	/*a*
 	88%{
 		top: 26%;
 		left: 1%;
 	}
-	/*t*/
+	/*t*
 	91%{
 		top: 25%;
 		left: 34%;
 	}
-	/*o*/
+	/*o*
 	95%{
 		top: 42%;
 		left: 5%;
@@ -376,7 +379,7 @@ header{
 		left: 36%;
 	}
 } 
-
+*/
 
 /*mission section*/
 

@@ -409,6 +409,7 @@ header{
 #quiet{
 	background-image: url(img/fireplace.jpg);
 	background-size: cover;
+	background-position: center;
 }
 
 #book{

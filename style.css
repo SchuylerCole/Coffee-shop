@@ -406,7 +406,9 @@ header{
 	color: white;
 	text-align: center;
 	height: 100vh;
-	margin: .5rem;
+	margin: 1.75rem;
+	margin-top: .5rem;
+	font-family: 'Calligraffitti', cursive;
 }
 
 .tiles h1{
@@ -414,6 +416,7 @@ header{
 	margin: .5rem;
 	font-size: 4rem;
 	color: white;
+	font-family: 'Calligraffitti', cursive;
 }
 #quiet{
 	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ),url(img/fireplace.jpg);

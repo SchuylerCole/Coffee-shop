@@ -397,28 +397,37 @@ header{
 	width: 33.33%;
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 }
 
 
 .tiles p{
-	font-size: 3.6rem;
-	color: var(--vanilla);
+	font-size: 3.2rem;
+	color: white;
 	text-align: center;
 	height: 100vh;
+	margin: .5rem;
+}
+
+.tiles h1{
+	margin-bottom: .25rem;
+	margin: .5rem;
+	font-size: 4rem;
+	color: white;
 }
 #quiet{
-	background-image: url(img/fireplace.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ),url(img/fireplace.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 #book{
-	background-image: url(img/books.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ),url(img/books.jpg);
 	background-size: cover;
 }
 
 #coffee{
-	background-image: url(img/frozen-pour.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ),url(img/frozen-pour.jpg);
 	background-size: cover;
 }
 .mission h2{
